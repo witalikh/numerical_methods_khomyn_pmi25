@@ -45,6 +45,7 @@ void query_1()
 	
 	try
 	{
+		std::cout << "\nThat's how it looks in triangle matrix form:\n" << gaussian_elimination(matrix) << "\n\n\n";
 		auto solution = SLAE_solution(matrix);
 		std::cout << "\nThe result of evaluation is the vector [";
 		for (size_t i = 0; i < vars; ++i)
